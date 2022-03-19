@@ -48,3 +48,5 @@ document.addEventListener('DOMContentLoaded', UI.displayTasks);
 // Event: Add a tasks
 
 // Event: Remove a task
+
+// merge test
