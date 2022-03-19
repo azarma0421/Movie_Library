@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <script src="https://kit.fontawesome.com/aaeaf2ceb0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/5/yeti/bootstrap.min.css">
+    <!-- <tittle>MyToDoList App</tittle> -->
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h1 class="displ-4">
+            <i class="fas fa-book-open"></i>My<span class="text-primary">ToDo</span>List</h1>
+
+        <form id="ToDo-form">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="deadline">Deadline</label>
+                <input type="text" id="deadline" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <input type="text" id="description" class="form-control">
+            </div>
+            <br>
+            <input type="submit" value="Add" class="form-control btn btn-primary btn-block">
+        </form>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Dead line</th>
+                    <th>Description</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="ToDo-List"></tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
