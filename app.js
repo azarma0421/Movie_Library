@@ -45,6 +45,6 @@ class UI {
 
 // Event:Display tasks
 document.addEventListener('DOMContentLoaded', UI.displayTasks);
-// Event: Add a task
+// Event: Add a tasks
 
 // Event: Remove a task
