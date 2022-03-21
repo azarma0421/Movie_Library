@@ -1,4 +1,4 @@
-# Movie_Libery
+# Movie_Library
 
 A movie list that I have watched
 
